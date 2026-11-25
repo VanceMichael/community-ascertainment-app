@@ -1,0 +1,444 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "assets": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "type": {
+            "type": [
+              "string"
+            ]
+          },
+          "zone": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "zone"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "checks": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "assignee": {
+            "type": [
+              "string"
+            ]
+          },
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "event_ids": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "inclusion_probability": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "result": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "selection": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "assignee",
+          "at",
+          "event_ids",
+          "id",
+          "inclusion_probability",
+          "result",
+          "selection",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "claims": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "period": {
+            "type": [
+              "string"
+            ]
+          },
+          "scope": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "zone": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "period",
+          "scope",
+          "status",
+          "zone"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "coverage": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "minutes": {
+            "type": [
+              "number"
+            ]
+          },
+          "observed_assets": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "period": {
+            "type": [
+              "string"
+            ]
+          },
+          "zone": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "id",
+          "minutes",
+          "observed_assets",
+          "period",
+          "zone"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "events": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "closed_at": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "recurs_after": {
+            "type": [
+              "string"
+            ]
+          },
+          "verified_at": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "closed_at",
+          "id",
+          "kind",
+          "verified_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "links": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "decision": {
+            "type": [
+              "string"
+            ]
+          },
+          "event_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "report_ids": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "decision",
+          "event_id",
+          "id",
+          "report_ids"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "reports": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "follows_report": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "observer": {
+            "type": [
+              "string"
+            ]
+          },
+          "period": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "at",
+          "channel",
+          "follows_report",
+          "id",
+          "kind",
+          "observer",
+          "period"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "reviewers": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "max_visits": {
+            "type": [
+              "number"
+            ]
+          },
+          "slots": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "types": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "zones": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "max_visits",
+          "slots",
+          "types",
+          "zones"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "assets",
+    "checks",
+    "claims",
+    "coverage",
+    "events",
+    "links",
+    "reports",
+    "reviewers"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "流动巡查的线索覆盖与复核抽样合成资料格式"
+}

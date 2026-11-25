@@ -1,0 +1,504 @@
+{
+  "assets": [
+    {
+      "id": "A1",
+      "zone": "东",
+      "type": "照明"
+    },
+    {
+      "id": "A2",
+      "zone": "东",
+      "type": "护栏"
+    },
+    {
+      "id": "A3",
+      "zone": "东",
+      "type": "照明"
+    },
+    {
+      "id": "A4",
+      "zone": "东",
+      "type": "护栏"
+    },
+    {
+      "id": "A5",
+      "zone": "东",
+      "type": "照明"
+    },
+    {
+      "id": "A6",
+      "zone": "东",
+      "type": "护栏"
+    },
+    {
+      "id": "A7",
+      "zone": "西",
+      "type": "照明"
+    },
+    {
+      "id": "A8",
+      "zone": "西",
+      "type": "护栏"
+    },
+    {
+      "id": "A9",
+      "zone": "西",
+      "type": "照明"
+    },
+    {
+      "id": "A10",
+      "zone": "西",
+      "type": "护栏"
+    },
+    {
+      "id": "A11",
+      "zone": "西",
+      "type": "照明"
+    },
+    {
+      "id": "A12",
+      "zone": "西",
+      "type": "护栏"
+    }
+  ],
+  "reports": [
+    {
+      "id": "R1",
+      "asset_id": "A2",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O1",
+      "at": "2026-10-02T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R2",
+      "asset_id": "A3",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O2",
+      "at": "2026-10-03T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R3",
+      "asset_id": "A4",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O3",
+      "at": "2026-10-04T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R4",
+      "asset_id": "A5",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O4",
+      "at": "2026-10-05T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R3"
+    },
+    {
+      "id": "R5",
+      "asset_id": "A6",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O5",
+      "at": "2026-10-06T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R6",
+      "asset_id": "A7",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O0",
+      "at": "2026-10-01T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R7",
+      "asset_id": "A8",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O1",
+      "at": "2026-10-02T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R8",
+      "asset_id": "A9",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O2",
+      "at": "2026-10-03T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R7"
+    },
+    {
+      "id": "R9",
+      "asset_id": "A10",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O3",
+      "at": "2026-10-04T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R10",
+      "asset_id": "A11",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O4",
+      "at": "2026-10-05T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R11",
+      "asset_id": "A12",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O5",
+      "at": "2026-10-06T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R12",
+      "asset_id": "A1",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O0",
+      "at": "2026-10-01T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R11"
+    },
+    {
+      "id": "R13",
+      "asset_id": "A2",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O1",
+      "at": "2026-10-02T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R14",
+      "asset_id": "A3",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O2",
+      "at": "2026-10-03T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R15",
+      "asset_id": "A4",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O3",
+      "at": "2026-10-04T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R16",
+      "asset_id": "A5",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O4",
+      "at": "2026-10-05T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R15"
+    },
+    {
+      "id": "R17",
+      "asset_id": "A6",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O5",
+      "at": "2026-10-06T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R18",
+      "asset_id": "A7",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O0",
+      "at": "2026-10-01T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R19",
+      "asset_id": "A8",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O1",
+      "at": "2026-10-02T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R20",
+      "asset_id": "A9",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O2",
+      "at": "2026-10-03T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R19"
+    },
+    {
+      "id": "R21",
+      "asset_id": "A10",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O3",
+      "at": "2026-10-04T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R22",
+      "asset_id": "A11",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O4",
+      "at": "2026-10-05T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R23",
+      "asset_id": "A12",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observer": "O5",
+      "at": "2026-10-06T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": null
+    },
+    {
+      "id": "R24",
+      "asset_id": "A1",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observer": "O0",
+      "at": "2026-10-01T19:00:00+08:00",
+      "kind": "失效",
+      "follows_report": "R23"
+    }
+  ],
+  "coverage": [
+    {
+      "id": "C1",
+      "zone": "东",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A2",
+        "A3"
+      ],
+      "minutes": 33
+    },
+    {
+      "id": "C2",
+      "zone": "东",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A3",
+        "A4"
+      ],
+      "minutes": 36
+    },
+    {
+      "id": "C3",
+      "zone": "东",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A4",
+        "A5"
+      ],
+      "minutes": 39
+    },
+    {
+      "id": "C4",
+      "zone": "东",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A5",
+        "A6"
+      ],
+      "minutes": 42
+    },
+    {
+      "id": "C5",
+      "zone": "西",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A6",
+        "A7"
+      ],
+      "minutes": 45
+    },
+    {
+      "id": "C6",
+      "zone": "西",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A7",
+        "A8"
+      ],
+      "minutes": 48
+    },
+    {
+      "id": "C7",
+      "zone": "西",
+      "channel": "骑手",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A8",
+        "A9"
+      ],
+      "minutes": 51
+    },
+    {
+      "id": "C8",
+      "zone": "西",
+      "channel": "网格",
+      "period": "2026-W40",
+      "observed_assets": [
+        "A9",
+        "A10"
+      ],
+      "minutes": 54
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "report_ids": [
+        "R1",
+        "R13"
+      ],
+      "event_id": "EV1",
+      "decision": "已确认重复"
+    },
+    {
+      "id": "L2",
+      "report_ids": [
+        "R2",
+        "R14"
+      ],
+      "event_id": "EV2",
+      "decision": "待核实"
+    }
+  ],
+  "events": [
+    {
+      "id": "EV1",
+      "asset_id": "A2",
+      "kind": "失效",
+      "verified_at": "2026-10-03",
+      "closed_at": "2026-10-05"
+    },
+    {
+      "id": "EV3",
+      "asset_id": "A2",
+      "kind": "失效",
+      "verified_at": "2026-10-08",
+      "closed_at": null,
+      "recurs_after": "EV1"
+    },
+    {
+      "id": "EV2",
+      "asset_id": "A3",
+      "kind": "失效",
+      "verified_at": null,
+      "closed_at": null
+    }
+  ],
+  "checks": [
+    {
+      "id": "CK1",
+      "event_ids": [
+        "EV1"
+      ],
+      "at": "2026-10-06",
+      "result": "已修好",
+      "selection": "层内随机",
+      "inclusion_probability": 0.5,
+      "assignee": "V1",
+      "status": "完成"
+    },
+    {
+      "id": "CK2",
+      "event_ids": [
+        "EV2"
+      ],
+      "at": "2026-10-09",
+      "result": null,
+      "selection": "定向疑点",
+      "inclusion_probability": null,
+      "assignee": "V1",
+      "status": "已派"
+    }
+  ],
+  "reviewers": [
+    {
+      "id": "V1",
+      "zones": [
+        "东",
+        "西"
+      ],
+      "types": [
+        "照明"
+      ],
+      "slots": [
+        "2026-10-09-AM"
+      ],
+      "max_visits": 3
+    },
+    {
+      "id": "V2",
+      "zones": [
+        "西"
+      ],
+      "types": [
+        "护栏"
+      ],
+      "slots": [
+        "2026-10-09-PM"
+      ],
+      "max_visits": 2
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL1",
+      "zone": "东",
+      "period": "2026-W40",
+      "scope": "照明已修复",
+      "status": "已对外说明"
+    }
+  ]
+}
